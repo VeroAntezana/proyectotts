@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
           Icons.speaker_group_rounded,
           color: Colors.white,
         ),
-        backgroundColor: Color.fromARGB(255, 187, 65, 145),
+        backgroundColor: Colors.green,
       ),
     );
   }
@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> {
                     style: const TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
-                      backgroundColor: Color.fromARGB(255, 211, 153, 185),
+                      backgroundColor: Color.fromARGB(255, 132, 179, 96),
                     ),
                   ),
                 if (_currentWordEnd != null)
